@@ -30,72 +30,82 @@
   </head>
   <body class="flex justify-center min-h-screen items-center bg-gray-300 p-10">
     <div
-      class="bg-white max-w-[25rem] shrink-0 overflow-hidden rounded-2xl shadow"
+      class="bg-white max-w-[25rem] shrink-0 overflow-hidden rounded-2xl shadow flex flex-col md:flex-row md:max-w-[50rem] md:h-[20rem]"
     >
       <div class="">
         <img
           src="./images/drawers.jpg"
           alt="Picture of Drawers"
-          class="h-[14rem] w-[25rem]"
+          class="h-[14rem] w-[25rem] md:h-[20rem] md:max-w-[20rem]"
         />
       </div>
-      <div class="px-9 pt-10">
-        <div class="text-xl text-very-dark-grayish-blue font-medium">
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </div>
-        <div class="text-desaturated-dark-blue mt-5 text-[1.1rem] mb-6">
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </div>
-      </div>
-      <div class="m-4 flex flex-row mt-9" id="profile_div">
-        <div class="ml-6 mb-3">
-          <img
-            src="./images/avatar-michelle.jpg"
-            alt="Avatar of Michelle"
-            class="w-12 rounded-full"
-          />
-        </div>
-        <div class="ml-6">
-          <div class="text-desaturated-dark-blue font-[600]">
-            Michelle Appleton
+      <div class=" flex flex-col">
+        <div class="px-9 pt-10 flex flex-col md:pt-6">
+          <div
+            class="text-xl text-very-dark-grayish-blue font-medium md:text-2xl"
+          >
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
           </div>
-          <div class="text-grayish-blue">28 Jun 2020</div>
+          <div
+            class="text-desaturated-dark-blue mt-5 text-[1.1rem] mb-6 md:text-[1rem] md:mb-0"
+          >
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </div>
         </div>
-        <div class="group ml-20 mt-3" id="shortcut_button">
-          <img
-            src="./images/icon-share.svg"
-            alt="Share Icon"
-            class="h-10 p-3 bg-light-grayish-blue rounded-full hover:bg-green-500 hover:p-2"
-          />
+        <div class="m-4 flex flex-row mt-9 md:mt-7" id="profile_div">
+          <div class="ml-6 mb-3">
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="Avatar of Michelle"
+              class="w-12 rounded-full"
+            />
+          </div>
+          <div class="ml-6">
+            <div class="text-desaturated-dark-blue font-[600]">
+              Michelle Appleton
+            </div>
+            <div class="text-grayish-blue">28 Jun 2020</div>
+          </div>
+          <div class="group ml-20 mt-3 md:ml-36" id="shortcut_button">
+            <img
+              src="./images/icon-share.svg"
+              alt="Share Icon"
+              class="h-10 p-3 bg-light-grayish-blue rounded-full hover:bg-green-500 hover:p-2"
+            />
+          </div>
         </div>
-      </div>
-      <div
-        class="bg-very-dark-grayish-blue w-[100%] h-[4.5rem] flex flex-row p-5 hidden"
-        id="share_div"
-      >
-        <div class="text-grayish-blue text-2xl tracking-widest">Share</div>
-        <div class="flex flex-row mt-1 ml-5 justify-between space-x-5">
-          <img
-            src="./images/icon-facebook.svg"
-            alt="FaceBook Icon"
-            class="h-6"
-          />
-          <img src="./images/icon-twitter.svg" alt="Twitter Icon" class="h-6" />
-          <img
-            src="./images/icon-pinterest.svg"
-            alt="Paiterest Icon"
-            class="h-6"
-          />
-        </div>
-        <div class="group ml-24 rounded-full" id="shortcut_share_button">
-          <img
-            src="./images/icon-share.svg"
-            alt="Share Icon"
-            class="h-8 p-2 bg-light-grayish-blue rounded-full hover:bg-green-500 hover:p-1"
-          />
+        <div
+          class="bg-very-dark-grayish-blue w-[100%] h-[4.5rem] flex flex-row p-5 hidden md:mt-9"
+          id="share_div"
+        >
+          <div class="text-grayish-blue text-2xl tracking-widest">Share</div>
+          <div class="flex flex-row mt-1 ml-5 justify-between space-x-5">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="FaceBook Icon"
+              class="h-6"
+            />
+            <img
+              src="./images/icon-twitter.svg"
+              alt="Twitter Icon"
+              class="h-6"
+            />
+            <img
+              src="./images/icon-pinterest.svg"
+              alt="Paiterest Icon"
+              class="h-6"
+            />
+          </div>
+          <div class="group ml-24 rounded-full md:ml-40" id="shortcut_share_button">
+            <img
+              src="./images/icon-share.svg"
+              alt="Share Icon"
+              class="h-8 p-2 bg-light-grayish-blue rounded-full hover:bg-green-500 hover:p-1"
+            />
+          </div>
         </div>
       </div>
     </div>
